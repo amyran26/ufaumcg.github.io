@@ -1,0 +1,119 @@
+$primary-blue: #116BB8;
+$off-white: #F8F8FF;
+$nav-font: 'Montserrat';
+$body-font: 'Raleway';
+
+html, body, p, h1, h2, h3, h4, h5 {
+  margin: 0rem;
+  padding: 0rem;
+  font-family: $body-font;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+u {
+  border-bottom: solid 3px $primary-blue;
+  display: inline;
+  padding-bottom: 4px;
+  text-decoration: none;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.body-container {
+  margin: 3rem 20rem;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: $primary-blue;
+  text-align: center;
+  z-index: 10;
+}
+
+.navbar-item {
+  font-size: 1rem;
+  font-family: $nav-font;
+  color: $off-white;
+  display: inline-block;
+  padding-left: 5rem;
+
+  // Vertical alginment
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.navbar-logo {
+  float: left;
+}
+
+.landing-container {
+  height: 90vh;
+  position: relative;
+  background: url("../public/img/team.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.landing-event {
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  height: auto;
+  width: 350px;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  background-color: $off-white;
+}
+
+.landing-event-header {
+  font-family: $nav-font;
+  margin-bottom: 1rem;
+}
+
+.landing-event-desc {
+  font-family: $body-font;
+  margin-bottom: 1rem;
+}
+
+.landing-event-photo {
+  border-radius: 0.25rem;
+}
+
+.about-intro {
+  line-height: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+.about-team-container {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.about-team-container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.about-team-officer {
+  display: inline-block;
+  padding-right: 5%;
+  padding-bottom: 2rem;
+  width: 20%;
+}
+
+.about-team-officer:nth-child(4),  .about-team-officer:nth-child(8) {
+  padding-right: 0%;
+}
