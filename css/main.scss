@@ -1,7 +1,9 @@
+@import 'normalize';
+
 $primary-blue: #116BB8;
 $off-white: #F8F8FF;
-$nav-font: 'Montserrat';
-$body-font: 'Raleway';
+$title-font: 'Montserrat';
+$body-font: 'Open Sans';
 
 html, body, p, h1, h2, h3, h4, h5 {
   margin: 0rem;
@@ -22,9 +24,22 @@ u {
   text-decoration: none;
 }
 
+h3 {
+  font-family: $title-font;
+  font-size: 1rem;
+}
+
+p, span {
+  font-size: 0.9rem;
+}
+
 .img-responsive {
   width: 100%;
   height: auto;
+}
+
+.color-blue {
+  color: $primary-blue;
 }
 
 .body-container {
@@ -40,7 +55,7 @@ u {
 
 .navbar-item {
   font-size: 1rem;
-  font-family: $nav-font;
+  font-family: $title-font;
   color: $off-white;
   display: inline-block;
   padding-left: 5rem;
@@ -51,6 +66,10 @@ u {
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.navbar-item:first-child {
+  padding-left: 0rem;
 }
 
 .navbar-logo {
@@ -79,7 +98,8 @@ u {
 }
 
 .landing-event-header {
-  font-family: $nav-font;
+  font-family: $title-font;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
@@ -116,4 +136,26 @@ u {
 
 .about-team-officer:nth-child(4),  .about-team-officer:nth-child(8) {
   padding-right: 0%;
+}
+
+.events-header-text {
+  margin-bottom: 2rem;
+}
+
+.events-category-header {
+  margin-bottom: 1rem;
+}
+
+.events-category {
+  font-family: $title-font;
+  margin-bottom: 1rem;
+}
+
+.events-entry {
+  margin-bottom: 1rem;
+  font-family: $body-font;
+}
+
+.recruit-header-text {
+  margin-bottom: 2rem;
 }
