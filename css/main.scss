@@ -56,6 +56,18 @@ i {
   margin: 3rem 20rem;
 }
 
+@media (max-width: 1200px) {
+  .body-container {
+    margin: 3rem 5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .body-container {
+    margin: 3rem 1rem;
+  }
+}
+
 .footer-pill {
   margin: 5rem auto 5rem auto;
   text-align: center;
