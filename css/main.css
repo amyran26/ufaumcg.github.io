@@ -387,6 +387,14 @@ h3 {
 p, span {
   font-size: 0.9rem; }
 
+i {
+  font-size: 2rem !important;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.bold {
+  font-weight: bold; }
+
 .img-responsive {
   width: 100%;
   height: auto; }
@@ -396,6 +404,30 @@ p, span {
 
 .body-container {
   margin: 3rem 20rem; }
+
+.footer-pill {
+  margin: 5rem auto 5rem auto;
+  text-align: center;
+  color: #F8F8FF;
+  height: auto;
+  width: 200px;
+  border-radius: 500px;
+  padding: 1rem;
+  background-color: #116BB8; }
+
+.footer-pill-absolute {
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  margin: 0rem auto;
+  position: absolute;
+  text-align: center;
+  color: #F8F8FF;
+  height: auto;
+  width: 200px;
+  border-radius: 500px;
+  padding: 1rem;
+  background-color: #116BB8; }
 
 .navbar {
   height: 10vh;
@@ -460,21 +492,42 @@ p, span {
   width: 100%;
   margin-top: 1rem; }
 
+.about-alumni-container {
+  width: 100%;
+  margin-top: 1rem;
+  height: 400px; }
+
 .about-team-container {
   width: 100%;
   margin-top: 2rem; }
 
 .about-team-officer {
   display: inline-block;
-  padding-right: 5%;
+  padding-right: 3%;
   padding-bottom: 2rem;
-  width: 20%; }
+  width: 30%; }
 
-.about-team-officer:nth-child(4), .about-team-officer:nth-child(8) {
+.about-team-officer:nth-child(3), .about-team-officer:nth-child(6) {
   padding-right: 0%; }
 
-.events-header-text {
+.events-intro, .recruit-intro {
   margin-bottom: 2rem; }
+
+.careers-intro {
+  margin-bottom: 1rem; }
+
+.careers-shortcuts {
+  margin-bottom: 2rem; }
+
+.careers-shortcuts > p > a:hover {
+  color: #116BB8; }
+
+.recruit-intro .job-list {
+  line-height: 1.4rem;
+  font-size: 0.9rem; }
+
+.recruit-application {
+  height: 400px; }
 
 .events-category-header {
   margin-bottom: 1rem; }
@@ -487,7 +540,70 @@ p, span {
   margin-bottom: 1rem;
   font-family: "Open Sans"; }
 
-.recruit-header-text {
+.careers-table {
+  width: 100%;
+  margin-top: 1rem;
   margin-bottom: 2rem; }
+
+.back-to-top:hover {
+  color: #116BB8; }
+
+.back-to-top {
+  float: right; }
+
+.table-format, .careers-table-category, .careers-table-header, .careers-table .name, .careers-table .company, .careers-table .group, .careers-table .location {
+  padding: 1%;
+  display: inline-block; }
+
+.careers-table-category {
+  font-family: "Montserrat";
+  text-align: left;
+  text-transform: uppercase;
+  border-left: 1px solid #116BB8;
+  border-right: 1px solid #116BB8;
+  border-bottom: 1px solid #116BB8;
+  width: calc(98% - 2px); }
+
+.careers-table-header {
+  font-family: "Montserrat";
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  background-color: #116BB8;
+  color: #F8F8FF; }
+  .careers-table-header:first-child {
+    border-top-left-radius: 0.25rem; }
+  .careers-table-header:last-child {
+    border-top-right-radius: 0.25rem; }
+
+.careers-table-entry {
+  font-size: 0.9rem;
+  border-left: 1px solid #116BB8;
+  border-right: 1px solid #116BB8;
+  border-bottom: 1px solid #116BB8; }
+
+.careers-table .name {
+  width: 20%; }
+.careers-table .company {
+  width: 25%; }
+.careers-table .group {
+  width: 25%; }
+.careers-table .location {
+  width: 22%; }
+
+.sponser-square {
+  width: 29%;
+  display: inline-block;
+  padding: 2%;
+  vertical-align: middle; }
+  .sponser-square > img {
+    -webkit-filter: grayscale(100%); }
+  .sponser-square > img:hover {
+    -webkit-filter: grayscale(0%); }
+
+.sponsor-square-year {
+  text-align: center;
+  display: inline-block;
+  width: 33%; }
 
 /*# sourceMappingURL=main.css.map */
