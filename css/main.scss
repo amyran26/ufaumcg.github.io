@@ -56,16 +56,89 @@ i {
   margin: 3rem 20rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
   .body-container {
     margin: 3rem 5rem;
   }
+
+  .about-team-officer {
+    padding-right: 4% !important;
+    width: 46% !important;
+  }
+
+  .about-team-officer:nth-child(even) {
+    padding-right: 0% !important;
+  }
+
+  .landing-event {
+    top: 10vh;
+    margin: 0rem auto;
+    left: 0 !important;
+    right: 0 !important;
+    position: absolute;
+    height: 10vh !important;
+    border-radius: 0rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+    padding: 1rem;
+    background-color: $off-white;
+
+    & > img {
+      display: none;
+      visibility: hidden;
+    }
+
+
+  }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 775px) {
   .body-container {
     margin: 3rem 1rem;
   }
+  .about-team-officer {
+    width: 100% !important;
+  }
+  .navbar-item {
+    display: none !important;
+  }
+  .navbar .responsive-menu {
+    display: inline-block !important;
+    font-size: 1rem;
+    font-family: $title-font;
+    color: $off-white;
+    display: inline-block;
+    cursor: pointer;
+
+    // Vertical alginment
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .careers-table {
+    .name {
+      width: 32% !important;
+    }
+    .company {
+      width: 32% !important;
+    }
+    .group {
+      width: 30% !important;
+    }
+    .location {
+      width: 0% !important;
+      display: none !important;
+    }
+  }
+  .careers-table-header:nth-child(3) {
+    border-top-right-radius: 0.25rem;
+  }
+}
+
+.navbar .responsive-menu {
+  display: none;
 }
 
 .footer-pill {
@@ -186,6 +259,7 @@ i {
   padding-right: 3%;
   padding-bottom: 2rem;
   width: 30%;
+  vertical-align:top;
 }
 
 .about-team-officer:nth-child(3),  .about-team-officer:nth-child(6) {
