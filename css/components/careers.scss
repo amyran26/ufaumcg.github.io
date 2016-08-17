@@ -1,0 +1,100 @@
+.careers-intro {
+  margin-bottom: 1rem;
+}
+
+.careers-shortcuts {
+  margin-bottom: 2rem;
+}
+
+.careers-shortcuts > p > a:hover {
+  color: $primary-blue;
+}
+
+.careers-table {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.back-to-top:hover {
+  color: $primary-blue;
+}
+
+.back-to-top {
+  float: right;
+}
+
+.table-format {
+  padding: 1%;
+  display: inline-block;
+}
+
+.careers-table-category {
+  padding: 1.5% 1%;
+  font-family: $title-font;
+  text-align: left;
+  text-transform: uppercase;
+  border-left: 1px solid $primary-blue;
+  border-right: 1px solid $primary-blue;
+  border-bottom: 1px solid $primary-blue;
+  width: calc(98% - 2px);
+}
+
+.careers-table-header {
+  @extend .table-format;
+  font-family: $title-font;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: $title-font;
+  background-color: $primary-blue;
+  color: $off-white;
+
+  &:first-child {
+    border-top-left-radius: 0.25rem;
+  }
+
+  &:last-child {
+    border-top-right-radius: 0.25rem;
+  }
+}
+
+.careers-table-entry {
+  font-size: 0.9rem;
+  border-left: 1px solid $primary-blue;
+  border-right: 1px solid $primary-blue;
+  border-bottom: 1px solid $primary-blue;
+}
+
+.careers-table {
+  .name {
+    @extend .table-format;
+    width: 20%;
+  }
+  .company {
+    @extend .table-format;
+    width: 25%;
+  }
+  .group {
+    @extend .table-format;
+    width: 25%;
+  }
+  .location {
+    @extend .table-format;
+    width: 22%;
+  }
+}
+
+.sponser-square {
+  width: 29%;
+  display: inline-block;
+  padding: 2%;
+  vertical-align: middle;
+
+  & > img {
+    -webkit-filter: grayscale(100%);
+  }
+
+  & > img:hover {
+    -webkit-filter: grayscale(0%);
+  }
+}

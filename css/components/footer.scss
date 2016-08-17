@@ -1,0 +1,25 @@
+.footer-pill {
+  margin: 5rem auto 5rem auto;
+  text-align: center;
+  color: $off-white;
+  height: auto;
+  width: 200px;
+  border-radius: 500px;
+  padding: 1rem;
+  background-color: $primary-blue;
+}
+
+.footer-pill-absolute {
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  margin: 0rem auto;
+  position: absolute;
+  text-align: center;
+  color: $off-white;
+  height: auto;
+  width: 200px;
+  border-radius: 500px;
+  padding: 1rem;
+  background-color: $primary-blue;
+}
