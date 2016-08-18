@@ -759,6 +759,11 @@ i {
     width: 0% !important;
     display: none !important; }
 
+  .company-list {
+    margin-bottom: 1rem !important; }
+    .company-list .column {
+      width: 100% !important; }
+
   .careers-table-header:nth-child(3) {
     border-top-right-radius: 0.25rem; } }
 .navbar .responsive-menu {
