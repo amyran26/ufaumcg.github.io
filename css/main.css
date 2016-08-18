@@ -547,6 +547,18 @@ i {
 .navbar-logo {
   float: left; }
 
+.navbar .menu {
+  display: none;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  color: #F8F8FF;
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 .events-category-header {
   margin-bottom: 1rem; }
 
@@ -702,18 +714,27 @@ i {
   .navbar-item {
     display: none !important; }
 
-  .navbar .responsive-menu {
-    display: inline-block !important;
-    font-size: 1rem;
-    font-family: "Montserrat";
-    color: #F8F8FF;
-    display: inline-block;
-    cursor: pointer;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%); }
+  .responsive-menu {
+    padding-bottom: 2rem;
+    top: 25% !important; }
+
+  .menu {
+    display: block !important; }
+
+  .navbar-item-responsive {
+    display: block !important;
+    padding: 1rem 0rem 1rem 0rem !important;
+    top: 25%; }
+
+  .navbar-responsive {
+    height: 100% !important;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 100%; }
+
+  .landing-container-responsive {
+    margin-top: 10vh; }
 
   .careers-table .name {
     width: 32% !important; }

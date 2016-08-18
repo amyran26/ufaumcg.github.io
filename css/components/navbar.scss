@@ -27,3 +27,17 @@
 .navbar-logo {
   float: left;
 }
+
+.navbar .menu {
+  display: none;
+  font-size: 1rem;
+  font-family: $title-font;
+  color: $off-white;
+  cursor: pointer;
+  // Vertical alginment
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
