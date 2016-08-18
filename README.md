@@ -1,1 +1,1 @@
-Website for the Undergraduate Students Association by Innovative Design. Currently hosted at <https://github.com/bsmarimon/UFA>. 
+Website for the Undergraduate Students Association by Innovative Design. Currently hosted at <https://bsmarimon.github.io/UFA/>. 
