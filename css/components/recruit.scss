@@ -11,10 +11,25 @@
   margin-bottom: 1.5rem;
 }
 
+.recruit-timeline {
+  margin: 1rem 0rem;
+
+  .timeline {
+    margin: 1rem 0rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .entry {
+      text-align: center;
+      margin: 0rem 5%;
+    }
+  }
+}
+
 .box {
   margin: 1rem 0rem;
 }
-
 .inputfile {
 	width: 0.1px;
 	height: 0.1px;

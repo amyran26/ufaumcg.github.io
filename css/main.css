@@ -562,6 +562,18 @@ i {
   .events-category .events-entry {
     margin-bottom: 1rem;
     font-family: "Open Sans"; }
+    .events-category .events-entry .company-list {
+      font-size: 0.9rem;
+      margin: 1rem 0rem;
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      justify-content: flex-start; }
+      .events-category .events-entry .company-list .column {
+        text-align: left;
+        width: 25%; }
+        .events-category .events-entry .company-list .column span:hover {
+          color: #116BB8; }
 
 .events-intro, .recruit-intro {
   margin-bottom: 2rem; }
@@ -580,6 +592,17 @@ i {
 
 .recruit-header {
   margin-bottom: 1.5rem; }
+
+.recruit-timeline {
+  margin: 1rem 0rem; }
+  .recruit-timeline .timeline {
+    margin: 1rem 0rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; }
+    .recruit-timeline .timeline .entry {
+      text-align: center;
+      margin: 0rem 5%; }
 
 .box {
   margin: 1rem 0rem; }

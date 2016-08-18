@@ -8,6 +8,24 @@
   .events-entry {
     margin-bottom: 1rem;
     font-family: $body-font;
+
+    .company-list {
+      font-size: 0.9rem;
+      margin: 1rem 0rem;
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      .column {
+        text-align: left;
+        width: 25%;
+
+        span:hover {
+          color: $primary-blue;
+        }
+      }
+    }
   }
 }
 
