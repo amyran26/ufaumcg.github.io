@@ -10,6 +10,26 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+.landing-container:hover {
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%);
+}
+
+.landing-container:hover .logo-container {
+  display: none;
+}
+
+.logo-container {
+  bottom: 25vh;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: 0rem auto;
+  width: 350px;
 }
 
 @media (max-width: 1150px) {
