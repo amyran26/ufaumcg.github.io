@@ -78,13 +78,14 @@
   }
   .careers-table {
     .name {
-      width: 32% !important;
+      width: 48% !important;
     }
     .company {
-      width: 32% !important;
+      width: 48% !important;
     }
     .group {
-      width: 30% !important;
+      width: 0% !important;
+      display: none !important;
     }
     .location {
       width: 0% !important;
@@ -98,7 +99,7 @@
       width: 100% !important;
     }
   }
-  .careers-table-header:nth-child(3) {
+  .careers-table-header:nth-child(2) {
     border-top-right-radius: 0.25rem;
   }
 }

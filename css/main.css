@@ -602,7 +602,7 @@ i {
     justify-content: center; }
     .recruit-timeline .timeline .entry {
       text-align: center;
-      margin: 0rem 5%; }
+      margin: 0rem 5% 1rem 0rem; }
 
 .box {
   margin: 1rem 0rem; }
@@ -750,11 +750,12 @@ i {
     margin-top: 150px; }
 
   .careers-table .name {
-    width: 32% !important; }
+    width: 48% !important; }
   .careers-table .company {
-    width: 32% !important; }
+    width: 48% !important; }
   .careers-table .group {
-    width: 30% !important; }
+    width: 0% !important;
+    display: none !important; }
   .careers-table .location {
     width: 0% !important;
     display: none !important; }
@@ -764,7 +765,7 @@ i {
     .company-list .column {
       width: 100% !important; }
 
-  .careers-table-header:nth-child(3) {
+  .careers-table-header:nth-child(2) {
     border-top-right-radius: 0.25rem; } }
 .navbar .responsive-menu {
   display: none; }
