@@ -3,6 +3,10 @@
   background-color: $primary-blue;
   text-align: center;
   z-index: 10;
+
+  .home {
+    padding-left: 0rem !important;
+  }
 }
 
 .navbar-item {
@@ -18,10 +22,6 @@
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.navbar-item:first-child {
-  padding-left: 0rem;
 }
 
 .navbar-logo {

@@ -77,6 +77,7 @@
 .inputResume.has-focus + label,
 .inputResume + label:hover {
     color: $primary-blue;
+    outline: 0px;
 }
 
 .recruit-submit {
