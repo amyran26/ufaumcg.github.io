@@ -1,15 +1,14 @@
-.events-category-header {
-  margin-bottom: 1rem;
-}
-
 .events-category {
   font-family: $title-font;
   margin-bottom: 1rem;
-}
 
-.events-entry {
-  margin-bottom: 1rem;
-  font-family: $body-font;
+  .events-category-header {
+    margin-bottom: 1rem;
+  }
+  .events-entry {
+    margin-bottom: 1rem;
+    font-family: $body-font;
+  }
 }
 
 .events-intro, .recruit-intro {

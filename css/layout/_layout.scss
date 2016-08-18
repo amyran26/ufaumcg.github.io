@@ -3,7 +3,7 @@
 }
 
 .landing-container {
-  height: 90vh;
+  height: calc(100vh - 100px);
   position: relative;
   background: url("../public/img/team.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -12,18 +12,15 @@
   background-size: cover;
   -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
   filter: grayscale(100%);
-}
 
-.landing-container:hover {
-  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
-  filter: grayscale(0%);
-}
-
-.landing-container:hover .logo-container {
-  display: none;
+  &:hover {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+  }
 }
 
 .logo-container {
+  display: none;
   bottom: 25vh;
   position: absolute;
   left: 0px;
@@ -67,7 +64,7 @@
   .navbar-item-responsive {
     display: block !important;
     padding: 1rem 0rem 1rem 0rem !important;
-    top: 25%;
+    top: 25% !important;
   }
   .navbar-responsive {
     height: 100% !important;
@@ -77,7 +74,7 @@
     width: 100%;
   }
   .landing-container-responsive {
-    margin-top: 10vh;
+    margin-top: 150px;
   }
   .careers-table {
     .name {
