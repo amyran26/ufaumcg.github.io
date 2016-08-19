@@ -20,7 +20,7 @@ $(document).ready(function () {
       if (request.status == 200) {
         $(".recruit-application-form").html("<br/><p>Thank you for applying. You should hear back in 1-2 weeks.</p>");
       } else {
-        $(".recruit-application-form").html("<br/><p>Your application was not submitted. Please try again.</p>");
+        $(".recruit-application-form").html("<br/><p>Something went wrong, pls try again later or email directly to ufa.umcg@gmail.com and let us know you got an error here.</p>");
       }
     };
     request.send(data);
