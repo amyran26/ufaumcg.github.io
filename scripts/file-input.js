@@ -8,10 +8,26 @@ $(document).ready(function () {
   'use strict';
 
   // Display a confirmation message
-  $("#submit").click(function () {
-    $(".recruit-application-form").html("<br/><p>Thank you for applying. You should hear back in 1-2 weeks.</p>");
+  $("#app").submit(function (event) {
+    event.preventDefault();
+    let data = new FormData(this);
+    data.append("password", "memes");
+
+    var formElement = document.querySelector("form");
+    var request = new XMLHttpRequest();
+    request.open("POST", "https://innovativedesign.club");
+    request.onload = function() {
+      if (request.status == 200) {
+        $(".recruit-application-form").html("<br/><p>Thank you for applying. You should hear back in 1-2 weeks.</p>");
+      } else {
+
+      }
+    };
+
+    request.send(data);
+
   });
-  
+
   // Change the input field to be the uploaded file name
   $( '.inputfile' ).each( function()
   {
