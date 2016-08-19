@@ -15,7 +15,7 @@ $(document).ready(function () {
     data.append("password", "memes");
 
     var request = new XMLHttpRequest();
-    request.open("POST", "https://innovativedesign.club");
+    request.open("POST", "https://mailrelay.ufaumcg.com/mail");
     request.onload = function() {
       if (request.status == 200) {
         $(".recruit-application-form").html("<br/><p>Thank you for applying. You should hear back in 1-2 weeks.</p>");
