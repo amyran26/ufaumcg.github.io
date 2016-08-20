@@ -700,7 +700,6 @@ i {
     filter: grayscale(0%); }
 
 .logo-container {
-  display: none;
   bottom: 25vh;
   position: absolute;
   left: 0px;
