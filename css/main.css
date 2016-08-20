@@ -585,6 +585,8 @@ i {
 
 .recruit-intro {
   font-size: 0.9rem !important; }
+  .recruit-intro p {
+    font-size: 0.9rem !important; }
   .recruit-intro .job-list {
     line-height: 1.4rem; }
 
