@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".menu").click(function() {
+  $(".navbar").click(function() {
     if ($(".menu")[0].innerHTML.indexOf("MENU") > -1) {
       $(".menu").addClass("responsive-menu");
       $(".navbar-item").addClass("navbar-item-responsive");

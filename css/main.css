@@ -730,6 +730,9 @@ i {
   .navbar-item {
     display: none !important; }
 
+  .navbar {
+    cursor: pointer !important; }
+
   .responsive-menu {
     padding-bottom: 2rem;
     top: 25% !important; }
