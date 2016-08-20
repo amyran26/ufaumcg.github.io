@@ -583,9 +583,10 @@ i {
   display: inline-block;
   width: 33%; }
 
-.recruit-intro .job-list {
-  line-height: 1.4rem;
+.recruit-intro {
   font-size: 0.9rem; }
+  .recruit-intro .job-list {
+    line-height: 1.4rem; }
 
 .recruit-application {
   height: auto; }
