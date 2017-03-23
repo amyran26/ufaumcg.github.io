@@ -5,3 +5,4 @@ The website is currently hosted at <https://innod-webtier.github.io/ufa/> and al
 
 ### Updating the website
 Currently the website files live in a Github repository owned by Innovative Design. If you wish to move it, just let us know and we'll delete our CNAME. Otherwise, the HTML files are fairly straightforward. To add new entries to officers or another table for the careers page, just follow the format already outlined. 
+ 
